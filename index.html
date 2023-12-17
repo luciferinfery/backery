@@ -12,7 +12,7 @@
 <!--    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,600;1,900&display=swap"-->
 <!--          rel="stylesheet">-->
 <!--    Styles-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
    <header class="header">
@@ -111,6 +111,7 @@
                 <ul class="formats-list">
                     <li class="formats-item">
                         <article class="format-card">
+                            <img class="format-image" src="./images/walrus-format.jpg" alt="Walrus format" >
                             <h3 class="formar-title" lang="en">Walrus</h3>
                             <div class="format-text">
                                 <p>Площа: до 120 м2</p>
@@ -122,6 +123,7 @@
                     </li>
                     <li class="formats-item">
                         <article class="format-card">
+                            <img class="format-image" src="./images/horseshoe-format.jpg" alt="Horseshoe format" >
                             <h3  class="formar-title" lang="en">Horseshoe</h3>
                             <div class="format-text">
                                 <p>Площа: до 25 м2</p>
@@ -133,6 +135,7 @@
                     </li>
                     <li class="formats-item">
                         <article class="format-card">
+                            <img class="format-image" src="./images/handlebar-format.jpg" alt="Handlebar format" >
                             <h3 class="formar-title" lang="en">Handlebar</h3>
                             <div class="format-text">
                                 <p>Площа: до 15 м2</p>
@@ -247,6 +250,10 @@
            <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
            <form name="modal-form" autocomplete="on">
                <div class="form-field">
+                   <audio controls>
+                       <source src="/media/KlavdiiaPetrivna.mp3" type="audio/mp3">
+                       Your browser does not support the audio tag.
+                   </audio>
                    <label class="form-label visually-hidden" for="user-name">Iм’я</label>
                    <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Iм’я" required>
 
