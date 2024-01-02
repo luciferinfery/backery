@@ -6,17 +6,22 @@
   background-position: center top;
   background-size: cover;
 
+  .hero-title{
+    margin-bottom: 0;
+    color: var(--primary-light);
+    text-align: center;
+    font-size: 67px;
+    line-height: 1;
+    font-weight: 900;
+    font-style: normal;
+    @media screen and (min-width:$bp-tablet) {
+      font-size: 128px;
+      line-height: 1.5;
+    }
+    .hero-title .accent{
+      color: var(--color-brand-normal);
+    }
+  }
 }
 
-.hero-title{
-  margin-bottom: 0;
-  color: var(--primary-light);
-  text-align: center;
-  font-size: 128px;
-  font-weight: 900;
-  font-style: normal;
-}
 
-.hero-title .accent{
-  color: var(--color-brand-normal);
-}
